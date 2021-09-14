@@ -1,0 +1,128 @@
+html {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 5%;
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Red Hat Display";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 16px;
+  color: gray;
+}
+
+a {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+}
+
+button {
+  border-radius: 15px;
+  padding: 0em 9em;
+  background-color: hsl(245, 75%, 52%);
+  color: #ffff;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(50,50,200,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  border-radius: 15px;
+  padding: 0em 9em;
+  background-color: hsl(225, 85%, 65%);
+  color: #ffff;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(50,50,200,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.flex-container {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  margin: auto;
+  padding: 1.5% 0 1.5% 0;
+  border-radius: 25px;
+}
+
+.HeaderImage {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.OrderSummary {
+  width: 17.7%;
+  text-align: center;
+  margin: auto;
+  background-color: #ffff;
+  border-radius: 25px;
+}
+
+.OrderInfoText {
+  padding: 0 15% 3% 15%;
+}
+
+.MusicIcon {
+ display: inline-block;
+}
+
+.PlanDetails {
+ display: inline-block;
+}
+
+.PlanCost {
+ display: block;
+ margin-top: -45%;
+}
+
+.ChangePlan {
+  display: inline-block;
+}
+
+a.ChangePlan:hover {
+  text-decoration: none;
+  color: hsl(225, 85%, 65%);
+}
+
+.ProceedToPayment {
+  margin-top: 7%;
+}
+
+.CancelDiv {
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.CancelOrder {
+  text-decoration: none;
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  color:grey;
+}
+
+a.CancelOrder:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.MusicIcon {
+  padding: 10px 10px;
+}
+
+.ChangePlan {
+  margin: 20px 10px 15px 40px;
+}

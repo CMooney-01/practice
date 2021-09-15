@@ -1,0 +1,48 @@
+html {
+  background-color: white;
+}
+
+.first-div {
+  background-color: red;
+  width: 65vw;
+  height: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-div {
+  background-color: green;
+  width: 45vw;
+  height: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-div {
+  background-color: yellow;
+  width: 20vw;
+  height: 10vw;
+  order: 2;
+}
+
+.fourth-div {
+  background-color: blue;
+  width: 20vw;
+  height: 10vw;
+  order: 3;
+}
+
+.fifth-div {
+  background-color: orange;
+  width: 20vw;
+  height: 10vw;
+  order: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .second-div {
+    flex-direction: column;
+  }
+}

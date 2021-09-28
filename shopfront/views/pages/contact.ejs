@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body>
+<header>
+  <%- include('../partials/header'); %>
+</header>
+<!-- Landing page -->
+<div class="landing-page">
+  <h1 class="landing-title">contact us</h1>
+  <p>Something we can help with?</p>
+  <div class="contact-form">
+    <form>
+      <label for="name">
+        Name:
+        <input type="text" name="name"/>
+      </label>
+      <br />
+      <label for="email">
+        Email:
+        <input type="email" name="email" />
+      </label>
+      <br />
+      <label for="message">Message:</label><br />
+      <textarea name="message" rows="10" cols="40">What's up?</textarea><br />
+      <button type="submit" formmethod="post" formaction="/contact-sent">Submit</button>
+    </form>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <%- include('../partials/footer'); %>
+</footer>
+ <script src="styles/scripts.js"></script>
+</body>
+</html>

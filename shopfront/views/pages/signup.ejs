@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body>
+<header>
+  <%- include('../partials/header'); %>
+</header>
+<!-- Landing page -->
+<div class="landing-page">
+  <h1 class="landing-title">new in town? sign up!</h1>
+  <p>check back later!</p>
+  <div class="signup-form">
+    <form>
+      <label for="username">username: <input type="text" name="username" required/></label>
+      <label for="userpassword">password: <input type="password" name="userpassword" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})" required/></label>
+      <label for="useremail">email: <input type="email" name="useremail" required/></label>
+    </form>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <%- include('../partials/footer'); %>
+</footer>
+ <script src="styles/scripts.js"></script>
+</body>
+</html>

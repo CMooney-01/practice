@@ -302,8 +302,11 @@ a {
 
 /* Login Page  */
 .login-form {
-  text-align: center;
-  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  gap: 10px;
 }
 
 .login-label {
@@ -316,6 +319,22 @@ a {
 p a {
   color: #97E5EF;
   font-weight: 700;
+}
+
+/* Signup Page  */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-items {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+form label {
+  width: 150px;
+  font-family: 'Comfortaa';
 }
 
 
